@@ -1,21 +1,157 @@
 <!doctype html>
 <html>
-
   <head>
     <meta charset="utf-8"/>
     <title>Steven Van Horn, software master, puzzle solver, and problem destroyer</title>
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link rel="stylesheet" media="all" href="/css/styles.css"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" media="all" href="css/960_12_col.css"/>
+    <link rel="stylesheet" media="all" href="css/style.css"/>
     <!-- Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ -->
   </head>
-  
-  <body lang="en">
-    <h1>Steven Van Horn</h1>
-    <a href="resume.pdf" download="resume.pdf">Download the resume</a>
 
+  <body lang="en" class="container_12">
+  <!--logo-->
+  <div class="grid_12">
+    <a href="resume.pdf" class="button" download="resume.pdf">Download the Resume</a>
+  </div>
+  <div class="grid_6 push_6" id="steve_title">
+    <h1>
+      <a href="http://theepicsnail.github.com">
+      <img src="img/steven_van_horn.png" alt="Steven Van Horn" />
+    </a>
+  </h1>
+  </div>
+  <!--title module -->
+  <div class="grid_12" id="title_info">
+    <p id="top_line">812 841 9432  <span id="dev1">//</span>  <a href="mailto:vanhorn.steven@gmail.com">vanhorn.steven@gmail.com</a>  <span id="dev2">//</span> <a href="https://github.com/theepicsnail">https://github.com/theepicsnail</a>  <span id="dev3">//</span></p>
+    <p id="bottom_line">1831 S25th, Terre Haute, IN 47802</p>
+  </div>
+  <!--resume body-->
+
+  <!--Employment-->
+    <div class="grid_12" id="employment">
+      <div class="grid_2 lcol alpha">
+        <p>Employment</p>
+      </div>
+      <div class="grid_4 employ_mcol">
+        <p class="date">DECEMBER 2010 - PRESENT</p>
+        <p class="loc">Interactive Intelligence</p>
+      </div>
+      <div class="grid_6 rcol r_fix omega">
+        <p>Software Developer. Developed, debugged, and implemented code in C++, C#, and Python. Gained skills working in a fast-paced, cross team environment.</p>
+      </div>
+      <div class="clear"> </div>
+      <div class="grid_4 employ_mcol left">
+        <p class="date">2008 - 2010</p>
+        <p class="loc">Indiana State University</p>
+      </div>
+      <div class="grid_6 rcol omega">
+        <p>Software developer for the Center of Instruction Research and Technology Department. Researched, designed, and implemented a variety of software, including: a scheduling program in Java and a historical map in PHP.</p>
+      </div>
+      <div class="clear"> </div>
+      <div class="grid_4 employ_mcol left">
+        <p class="date">2007 - 2009</p>
+        <p class="loc">Indiana State University</p>
+      </div>
+      <div class="grid_6 rcol r_fix omega">
+        <p>Software developer for grant research. Developed both gui and cli for a software that collects and compresses data.</p>
+      </div>
+
+      <!--skeleton employment module, just copy and paste this to add more!
+
+      <div class="grid_4 employ_mcol left">
+        <p class="date">Put date here</p>
+        <p class="loc">Put Employment Location Here</p>
+      </div>
+      <div class="grid_6 rcol omega">
+        <p>Put description of employment here</p>
+      </div> 
+      <div class="clear"> </div>
+      -->
+
+    </div>
+  <!--/Employment-->
+  <div class="clear"> </div>
+  <!--Skills Module-->
+    <div class="grid_12">
+      <div class="grid_2 lcol alpha">
+        <p>Skills</p>
+      </div>
+      <div class="grid_4 skills_mcol">
+        <p class="date">Languages</p>
+      </div>
+      <div class="grid_6 rcol r_fix omega">
+        <p>Java, Python, C++, C#, and Bash Scripting.</p>
+      </div>
+      <div class="clear"> </div>
+      <div class="grid_4 skills_mcol left">
+        <p class="date">Other</p>
+      </div>
+      <div class="grid_6 rcol r_fix omega">
+        <p>Debugging, TDD, Strong Mathematical background, Arduino development, Blackberry Development, Object Oriented Principles/Design, Teamwork, and Problem Solving.</p>
+      </div>
+
+      <!--skeleton skills module, just copy and paste this to add more!
+
+      <div class="grid_4 skills_mcol left">
+        <p class="date">Put skill type here</p>
+      </div>
+      <div class="grid_6 rcol r_fix omega">
+        <p>Put description of employment here</p>
+      </div> 
+      <div class="clear"> </div>
+      -->
+
+      </div>
+     
+     <div class="clear"> </div>
+    <!--education module--> 
+    <div class="grid_12">
+      <div class="grid_2 lcol alpha">
+        <p>Education</p>
+      </div>
+      <div class="grid_4 edu_mcol">
+        <p class="date">2006 - 2010</p>
+        <p class="loc">Indiana State University</p>
+      </div>
+      <div class="grid_6 rcol r_fix omega">
+        <p>B.S. in Computer Science  (3.7 gpa)</p>
+        <p>B.S. in Mathematics  (3.7 gpa)</p>
+      </div>
+
+      <!--skeleton education module, just copy and paste this to add more!
+
+      <div class="grid_4 edu_mcol left">
+        <p class="date">Put date here</p>
+        <p class="loc">Put Location Here</p>
+      </div>
+      <div class="grid_6 rcol r_fix omega">
+        <p>Put description of education here</p>
+      </div> 
+      <div class="clear"> </div>
+      -->
+    </div>       
+   <!--/skill module-->
+   <div class="clear"> </div>
+
+   <!--Extra module-->
+   <div class="grid_12">
+      <div class="grid_2 lcol extra suffix_4 alpha">
+        <p>Personal Projects</p>
+      </div>
+      <div class="grid_6 rcol r_fix omega">
+        <p>Personal projects include: creating an IRC Bot with a hot swappable plugin system, created a programming language, compiler and virtual machine toolkit, a custom file system, and tutored professors and students on various programming projects.</p>
+      </div>
+      <!--skeleton extra module, just copy and paste this to add more!
+
+      <div class="grid_6 rcol r_fix omega">
+        <p>Put description of personal project here</p>
+      </div> 
+      <div class="clear"> </div>
+      -->
+    </div>
+    <div id="footer" class="grid_12 rcol">References Supplied Upon Request</div>
   </body>
-  
 </html>
