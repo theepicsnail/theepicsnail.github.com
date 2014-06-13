@@ -1,3 +1,3 @@
 [submodule "kami"]
 	path = kami
-	url = git@github.com:theepicsnail/kami.git
+	url = https://github.com/theepicsnail/kami.git
